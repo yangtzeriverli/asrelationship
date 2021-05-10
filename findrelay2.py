@@ -63,6 +63,9 @@ while len(R_can) <= N:
 			R_can.add(int(element))
 			print("加入的元素是:",element)
 			print("内循环是：",R_can)
+		else:
+			stub24asset.remove(element)
+	
 	stub24asset=stub24asset.difference(R_can)
 	R_can.clear()
 	#R_can.add(findn)

@@ -25,7 +25,7 @@ if as24set.issubset(stubasset):
 else:
 	print('no')
 	stub24asset = stubasset.intersection(as24set)
-
+#实际执行中走的是这个交集的步骤
 
 stub24aslist = list(stub24asset)
 stub24aslist.sort()
